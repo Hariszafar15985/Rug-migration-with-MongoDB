@@ -1,0 +1,18 @@
+/**
+  Additional css goes here
+**/
+.woo-movies-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 50px;
+}
+
+.woo-movie-item {
+  width: calc(100% / 3 - 20px);
+}
+
+.woo-movie-media img {
+  width: 100%;
+}
